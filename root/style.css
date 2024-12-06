@@ -74,14 +74,18 @@ Sunset #E78761 */
     background-color: #d6805e;
 }
 
+.hidden {
+    display: none;
+}
 .note {
     margin: 20px 20px;
     height: 280px;
     width: 297px;
-    background-color: #E6EEF0;
     border-radius: 15px;
+    background-color:#d5d5d5;
     box-shadow: 0 0 10px 4px rgb(0, 0, 0, 0.1);
 }
+
 .note .tools {
     display: flex;
     justify-content: flex-end;
@@ -100,8 +104,8 @@ Sunset #E78761 */
 .note textarea {
     height: 245px;
     width: 100%;
-    padding: 14px;
-    background-color: #E6EEF0;
+    padding: 20px;
+    background-color: #d5d5d5;
     font-family: NoyhRBook;
     font-size: 1.1rem;
     color: #0a0604;
@@ -110,4 +114,13 @@ Sunset #E78761 */
     border-radius: 15px;
     outline: none;
     resize: none;
+}
+
+.main {
+    padding: 20px;
+    font-family: NoyhRBook;
+    font-size: 1.1rem;
+    background-color:#d5d5d5;
+    letter-spacing: 1px;
+    text-wrap: wrap;
 }
